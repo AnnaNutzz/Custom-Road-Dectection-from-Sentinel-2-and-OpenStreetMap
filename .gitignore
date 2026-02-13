@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project Data (Large Files)
+data/
+predictions/
+checkpoints/
+
+# Keep sample checkpoint metadata if needed, but ignore large .pth files
+# checkpoints/*.pth
+
+# Logs
+*.log
